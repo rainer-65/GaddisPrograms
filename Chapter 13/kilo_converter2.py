@@ -4,9 +4,9 @@
 
 import tkinter
 
+
 class KiloConverterGUI:
     def __init__(self):
-
         # Create the main window.
         self.main_window = tkinter.Tk()
 
@@ -17,7 +17,7 @@ class KiloConverterGUI:
 
         # Create the widgets for the top frame.
         self.prompt_label = tkinter.Label(self.top_frame,
-                    text='Enter a distance in kilometers:')
+                                          text='Enter a distance in kilometers:')
         self.kilo_entry = tkinter.Entry(self.top_frame,
                                         width=10)
 
@@ -28,7 +28,7 @@ class KiloConverterGUI:
         # Create the widgets for the middle frame.
         self.descr_label = tkinter.Label(self.mid_frame,
                                          text='Converted to miles:')
-        
+
         # We need a StringVar object to associate with
         # an output label. Use the object's set method
         # to store a string of blank characters.
@@ -67,7 +67,7 @@ class KiloConverterGUI:
 
     # The convert method is a callback function for
     # the Calculate button.
-    
+
     def convert(self):
         # Get the value entered by the user into the
         # kilo_entry widget.
@@ -80,6 +80,7 @@ class KiloConverterGUI:
         # in the StringVar object. This will automatically
         # update the miles_label widget.
         self.value.set(miles)
+
 
 # Create an instance of the KiloConverterGUI class.
 if __name__ == '__main__':
