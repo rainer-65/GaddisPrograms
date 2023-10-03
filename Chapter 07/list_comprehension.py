@@ -30,6 +30,13 @@ print("Output List using list comprehension:",
 list_using_comp = [x for x in range(100) if x % 2 == 0 if x % 5 == 0]
 print("Output List using list comprehension:", list_using_comp)
 
+# Using all and any
+# The any() method returns true if any of the list items are true,
+# and the all() function returns true if all the list items are true
+my_string = "coding**is**cool**345"
+print([char.isdigit() for char in my_string])
+print(any([char.isdigit() for char in my_string]))
+print(all([char.isdigit() for char in my_string]))
 # Computing prime numbers up to 100
 list_using_comp = [x for x in range(2, 100) if all(x % y for y in range(2, x // 2))]
 print("Output List using list comprehension:", list_using_comp)
