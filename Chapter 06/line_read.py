@@ -8,6 +8,7 @@ def main():
     line1 = infile.readline()
     line2 = infile.readline()
     line3 = infile.readline()
+    line4 = infile.readline()
 
     # Close the file.
     infile.close()
@@ -17,6 +18,8 @@ def main():
     print(line1)
     print(line2)
     print(line3)
+    print(line4)
+
 
 # Call the main function.
 if __name__ == '__main__':

@@ -15,6 +15,7 @@ def main():
     print('The list after the insert:')
     print(names)
 
+
 # Call the main function.
 if __name__ == '__main__':
     main()

@@ -17,6 +17,7 @@ def main():
         print('ERROR: Hours worked and hourly pay rate must')
         print('be valid integers.')
 
+
 # Call the main function.
 if __name__ == '__main__':
     main()

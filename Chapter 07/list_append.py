@@ -7,7 +7,7 @@ def main():
 
     # Create a variable to control the loop.
     again = 'Y'
-    
+
     # Add some names to the list.
     while again.upper() == 'Y':
         # Get a name from the user.
@@ -23,9 +23,10 @@ def main():
 
     # Display the names that were entered.
     print('Here are the names you entered.')
-    
+
     for name in name_list:
         print(name)
+
 
 # Call the main function.
 if __name__ == '__main__':

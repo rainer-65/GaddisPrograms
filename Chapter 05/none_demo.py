@@ -4,7 +4,7 @@ def main():
     # Get two numbers from the user.
     num1 = int(input('Enter a number: '))
     num2 = int(input('Enter another number: '))
-    
+
     # Call the divide function.
     quotient = divide(num1, num2)
 
@@ -12,7 +12,8 @@ def main():
     if quotient is None:
         print('Cannot divide by zero.')
     else:
-        print(f'{num1} divided by {num2} is {quotient}.')
+        print(f'{num1} divided by {num2} is {quotient:.2f}.')
+
 
 # The divide function divides num1 by num2 and
 # returns the result. If num2 is 0, the function
@@ -23,6 +24,7 @@ def divide(num1, num2):
     else:
         result = num1 / num2
     return result
+
 
 # Execute the main function.
 main()

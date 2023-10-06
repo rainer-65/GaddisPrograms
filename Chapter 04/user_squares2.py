@@ -15,6 +15,6 @@ print('Number\tSquare')
 print('--------------')
 
 # Print the numbers and their squares.
-for number in range(start, end + 1):
+for number in range(start, end+1):
     square = number**2
     print(f'{number}\t{square}')

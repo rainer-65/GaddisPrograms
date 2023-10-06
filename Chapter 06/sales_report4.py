@@ -4,7 +4,7 @@
 def main():
     # Initialize an accumulator.
     total = 0.0
-    
+
     try:
         # Open the sales_data.txt file.
         infile = open('sales_data.txt', 'r')
@@ -22,6 +22,7 @@ def main():
     else:
         # Print the total.
         print(f'{total:,.2f}')
+
 
 # Call the main function.
 if __name__ == '__main__':

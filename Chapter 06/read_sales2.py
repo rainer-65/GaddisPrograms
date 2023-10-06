@@ -11,9 +11,10 @@ def main():
         amount = float(line)
         # Format and display the amount.
         print(f'{amount:.2f}')
-        
+
     # Close the file.
     sales_file.close()
+
 
 # Call the main function.
 if __name__ == '__main__':

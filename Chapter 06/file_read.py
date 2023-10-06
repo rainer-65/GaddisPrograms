@@ -14,6 +14,7 @@ def main():
     # memory.
     print(file_contents)
 
+
 # Call the main function.
 if __name__ == '__main__':
     main()

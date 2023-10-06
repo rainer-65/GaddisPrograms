@@ -21,6 +21,7 @@ def main():
         print('An error occurred trying to read')
         print('the file', filename)
 
+
 # Call the main function.
 if __name__ == '__main__':
     main()

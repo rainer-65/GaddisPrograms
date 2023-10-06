@@ -13,11 +13,13 @@ def main():
     # Display the total age.
     print(f'Together you are {total} years old.')
 
+
 # The sum function accepts two numeric arguments and
 # returns the sum of those arguments.
 def sum(num1, num2):
     result = num1 + num2
     return result
+
 
 # Call the main function.
 main()

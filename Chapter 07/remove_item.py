@@ -19,9 +19,10 @@ def main():
         # Display the list.
         print('Here is the revised list:')
         print(food)
-        
+
     except ValueError:
         print('That item was not found in the list.')
+
 
 # Call the main function.
 if __name__ == '__main__':

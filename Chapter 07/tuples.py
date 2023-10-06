@@ -35,4 +35,4 @@ print("Concatenation: ", (1, 2, 3) + (4, 5, 6))  # concatenation
 print("Repetition: ", ('Hi!',) * 4)  # repetition
 print("Membership: ", 3 in (1, 2, 3))  # membership
 for x in (1, 2, 3):  # iteration
-    print(x, end='  ')
+    print(x, end=' ')

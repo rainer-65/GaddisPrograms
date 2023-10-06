@@ -4,7 +4,7 @@
 def main():
     # Initialize an accumulator.
     total = 0.0
-    
+
     try:
         # Open the sales_data.txt file.
         infile = open('sales_data.txt', 'r')
@@ -20,7 +20,7 @@ def main():
 
         # Print the total.
         print(f'{total:,.2f}')
-        
+
     except IOError:
         print('An error occured trying to read the file.')
 
@@ -29,6 +29,7 @@ def main():
 
     except:
         print('An error occured.')
+
 
 # Call the main function.
 if __name__ == '__main__':

@@ -7,10 +7,12 @@ def main():
     change_me(value)
     print(f'Back in main the value is {value}.')
 
+
 def change_me(arg):
     print('I am changing the value.')
     arg = 0
     print(f'Now the value is {arg}.')
+
 
 # Call the main  function.
 main()

@@ -1,18 +1,22 @@
 # This program saves a list of strings to a file.
+import pickle
+
 
 def main():
     # Create a list of strings.
-    cities = ['New York', 'Boston', 'Atlanta', 'Dallas']
+    sample_list = [1, 2, 3]
+    file_name = "sample.pkl"
 
-    # Open a file for writing.
-    outfile = open('cities.txt', 'w')
+    open_file = open(file_name, "wb")
+    pickle.dump(sample_list, open_file)
+    open_file.close()
 
-    # Write the list to the file.
-    for item in cities:
-        outfile.write(item + '\n')
+    open_file = open(file_name, "rb")
+    loaded_list = pickle.load(open_file)
+    open_file.close()
 
-    # Close the file.
-    outfile.close()
+    print(loaded_list)
+
 
 # Call the main function.
 if __name__ == '__main__':

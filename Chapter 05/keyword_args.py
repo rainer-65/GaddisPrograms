@@ -6,13 +6,15 @@ def main():
     # and $10,000 as the principal.
     show_interest(rate=0.01, periods=10, principal=10000.0)
 
+
 # The show_interest function displays the amount of
 # simple interest for a given principal, interest rate
 # per period, and number of periods.
 
 def show_interest(principal, rate, periods):
     interest = principal * rate * periods
-    print(f'The simple interest will be ${interest:,.2f}.') 
+    print(f'The simple interest will be ${interest:,.2f}.')
+
 
 # Call the main function.
 main()

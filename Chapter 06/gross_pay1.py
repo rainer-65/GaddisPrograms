@@ -13,6 +13,7 @@ def main():
     # Display the gross pay.
     print(f'Gross pay: ${gross_pay:,.2f}')
 
+
 # Call the main function.
 if __name__ == '__main__':
     main()

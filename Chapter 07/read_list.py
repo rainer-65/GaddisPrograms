@@ -6,16 +6,13 @@ def main():
 
     # Read the contents of the file into a list.
     cities = infile.readlines()
-    
+
     # Close the file.
     infile.close()
 
-    # Strip the \n from each element.
-    for index in range(len(cities)):
-        cities[index] = cities[index].rstrip('\n')
-
     # Print the contents of the list.
     print(cities)
+
 
 # Call the main function.
 if __name__ == '__main__':
