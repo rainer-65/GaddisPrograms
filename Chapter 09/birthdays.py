@@ -8,6 +8,7 @@ CHANGE = 3
 DELETE = 4
 QUIT = 5
 
+
 # main function
 def main():
     # Create an empty dictionary.
@@ -29,6 +30,7 @@ def main():
             change(birthdays)
         elif choice == DELETE:
             delete(birthdays)
+
 
 # The get_menu_choice function displays the menu
 # and gets a validated choice from the user.
@@ -53,6 +55,7 @@ def get_menu_choice():
     # return the user's choice.
     return choice
 
+
 # The look_up function looks up a name in the
 # birthdays dictionary.
 def look_up(birthdays):
@@ -61,6 +64,7 @@ def look_up(birthdays):
 
     # Look it up in the dictionary.
     print(birthdays.get(name, 'Not found.'))
+
 
 # The add function adds a new entry into the
 # birthdays dictionary.
@@ -74,6 +78,7 @@ def add(birthdays):
         birthdays[name] = bday
     else:
         print('That entry already exists.')
+
 
 # The change function changes an existing
 # entry in the birthdays dictionary.
@@ -90,6 +95,7 @@ def change(birthdays):
     else:
         print('That name is not found.')
 
+
 # The delete function deletes an entry from the
 # birthdays dictionary.
 def delete(birthdays):
@@ -101,6 +107,7 @@ def delete(birthdays):
         del birthdays[name]
     else:
         print('That name is not found.')
+
 
 # Call the main function.
 if __name__ == '__main__':
