@@ -2,5 +2,5 @@
 
 matplotlib==3.7.2
 missingno==0.5.2
-numpy==2.1.1
+numpy==1.26.4
 pandas==2.2.3

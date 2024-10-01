@@ -29,10 +29,15 @@ print("New Set: ", set_comprehension)
 
 # Union of two sets
 set_1 = {'Python', 'Java', 'C++', 'Kotlin'}
+print(type(set_1))
 set_2 = {'C#', 'Java', 'C++'}
-temp = [x for x in set_2 if x not in set_1]
-set_comprehension = set_1.union(temp)
-print("Union Set: ", set_comprehension)
-# Shorter version
-set_comprehension = set_1.union(set_2)
-print("Union Set: ", set_comprehension)
+set_union = set_1.union(set_2)
+print("Union operation: ", set_union)
+
+# Make a list out of the set
+list_union = list(set_union)
+print("Union operation: ", list_union)
+
+# Turn the list into a dictionary with a dictionary comprehension
+dict_union = {index: element for index, element in enumerate(list_union)}
+print("Union operation: ", dict_union)
