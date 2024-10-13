@@ -3,4 +3,25 @@
 matplotlib==3.7.2
 missingno==0.5.2
 numpy==1.26.4
-pandas==2.2.3
+pandas==2.2.2
+rectangle==0.4
+seaborn==0.13.2
+SQLAlchemy==2.0.29
+
+WARNING(pigar): some manual fixes are required since pigar has found duplicate requirements for the same import name.
+# WARNING(pigar): the following duplicate requirements are for import name: algo
+algo==1.3.1
+algo-auto-ml==0.1.7
+algomodule==2.0.0
+AlgoVision-Quant-Research==0.0.2
+phap==3.1.0
+symro==0.0.2
+text-summarizer==0.0.6
+trade-utils==1.0.31
+# WARNING(pigar): the following duplicate requirements are for import name: circle
+circle==1.1
+circle-python==0.0.44
+circlerobi==1.1.0
+my-new-math-package==0.1
+om286==0.0
+scikit-ci-addons==0.25.0
